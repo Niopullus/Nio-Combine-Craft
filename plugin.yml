@@ -1,0 +1,11 @@
+name: Nio-Combine-Craft
+version: 0.1
+main: NioCombineCraft
+description: Adds the ability to create custom recipes.
+api-version: 1.13
+commands:
+  combinecraft:
+      description: Used to craft items.
+      usage: /nioreplace <recipe name> <amount>
+      permission: niocombinecraft.combine
+      permission-message: You don't have permission to use that command.
